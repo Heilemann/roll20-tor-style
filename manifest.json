@@ -2,8 +2,14 @@
   "manifest_version": 2,
 
   "name": "The One Ring for Roll20",
-  "description": "Bongos.",
+  "description": "A simple fantasy/The One Ring RPG-based theme for Roll20.net.",
   "version": "1.0",
+
+  "icons": {
+    "16": "icons/theonering-16.png",
+    "48": "icons/theonering-48.png",
+    "128": "icons/theonering-128.png"
+  },
 
   "content_scripts": [
     {
