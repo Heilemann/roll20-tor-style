@@ -5,7 +5,6 @@ A Chrome extension that implements a nice wooden theme for use with
 The One Ring RPG the only pen and paper virtual tabletop Roll20.
 
 ![Screenshot](http://cl.ly/image/3g0d0d1Y293D/Screen%20Shot%202014-04-07%20at%2010.12.44%20PM.png)
-![](http://cl.ly/image/0A33180l0J2A/Screen%20Shot%202014-04-07%20at%2010.12.55%20PM.png)
 
 # How To Use
 
@@ -20,10 +19,11 @@ The One Ring RPG the only pen and paper virtual tabletop Roll20.
 This is implemented in the most hacky, yet simple way possible; by
 overwriting Roll20's CSS with my own. It's liable to break at any time.
 
-It also only does fairly basic things, just to make Roll20 aslightly
+It also only does fairly basic things, just to make Roll20 a slightly
 more atmospheric place to spend 4-6 hours slaughtering innocent slimy
-monsters and hauling their treasures back to civilization.
+monsters, hauling their treasures back to civilization.
 
 The graphics used were created by me from free image resources and icon
 packs found online, and are yours to use in exchange for attribution.
 
+Pull request away if you know how.
