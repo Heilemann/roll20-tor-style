@@ -23,7 +23,7 @@ function reloadOnChange (url, checkIntervalMS) {
                     chrome.runtime.reload();
                     init();
                 } else {
-                    __watchedFiles[url] = xhr.responseText
+                    __watchedFiles[url] = xhr.responseText;
                     window.setTimeout(self, checkIntervalMS || 1000);
                 }
             }

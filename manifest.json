@@ -13,9 +13,16 @@
 
   "content_scripts": [
     {
-      "matches": ["https://app.roll20.net/editor/"],
-      "css": ["/mystyles.css"],
-      "js": ["/theoperator.js"]
+      "matches": [
+        "https://app.roll20.net/editor/"
+      ],
+      "css": [
+        "/mystyles.css",
+        "/background-images.css"
+      ],
+      "js": [
+        "/theoperator.js"
+      ]
     }
   ],
 
