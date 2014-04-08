@@ -4,7 +4,8 @@ tor-for-roll20
 A Chrome extension that implements a nice wooden theme for use with
 The One Ring RPG the only pen and paper virtual tabletop Roll20.
 
-![http://cl.ly/image/3g0d0d1Y293D/Screen%20Shot%202014-04-07%20at%2010.12.44%20PM.png]
+![Screenshot](http://cl.ly/image/3g0d0d1Y293D/Screen%20Shot%202014-04-07%20at%2010.12.44%20PM.png)
+![](http://cl.ly/image/0A33180l0J2A/Screen%20Shot%202014-04-07%20at%2010.12.55%20PM.png)
 
 # How To Use
 
