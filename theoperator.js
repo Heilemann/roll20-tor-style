@@ -3,7 +3,7 @@ var reloadTimer;
 function init () {
   // reloadOnChange(chrome.extension.getURL('/theoperator.js'));
   // reloadOnChange(chrome.extension.getURL('/manifest.json'));
-  reloadOnChange(chrome.extension.getURL('/mystyles.css'));
+  // reloadOnChange(chrome.extension.getURL('/mystyles.css'));
 }
 
 function reloadOnChange (url, checkIntervalMS) {
