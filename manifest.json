@@ -17,8 +17,7 @@
         "https://app.roll20.net/editor/"
       ],
       "css": [
-        "/mystyles.css",
-        "/background-images.css"
+        "/mystyles.css"
       ],
       "js": [
         "/theoperator.js"
