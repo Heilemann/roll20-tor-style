@@ -14,7 +14,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://app.roll20.net/editor/"
+        "https://app.roll20.net/editor/",
+        "https://app.roll20dev.net/editor/"
       ],
       "css": [
         "/mystyles.css"
