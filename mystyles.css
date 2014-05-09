@@ -368,3 +368,6 @@ body:after {
     content: 'Menu' !important;
 }
 
+.message .formula {
+    display: none;
+}
