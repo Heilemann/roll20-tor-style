@@ -3,6 +3,7 @@
 
   "name": "The One Ring for Roll20",
   "description": "A simple fantasy/The One Ring RPG-based theme for Roll20.net.",
+  "author": "Michael Heilemann",
   "version": "1.0",
 
   "icons": {
@@ -25,15 +26,6 @@
       ]
     }
   ],
-
-  "permissions": [
-    // "https://secure.flickr.com/"
-  ],
-
-  "browser_action": {
-    // "default_icon": "icon.png",
-    // "default_popup": "popup.html"
-  },
 
   "web_accessible_resources": [
     "/manifest.json",
