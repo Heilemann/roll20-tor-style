@@ -187,7 +187,7 @@ body {
 }
 
 #secondary-toolbar {
-    background-color: #222 !important;
+    background-color: transparent !important;
     border: 0 !important;
     box-shadow: none !important;
     left: 90px !important;
@@ -203,6 +203,10 @@ body {
 #secondary-toolbar li {
     border: 0 !important;
     height: initial !important;
+}
+
+.macrobox {
+    background: transparent !important;
 }
 
 #textchat .message.system {
