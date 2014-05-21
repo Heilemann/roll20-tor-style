@@ -354,3 +354,8 @@ body {
     border: 0px !important;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 30px !important;
 }
+
+/* char sheets w. minimized position */
+[data-prevpos]:not(.dialog-collapsed) .ui-dialog-titlebar-close {
+    display: none !important;
+}
