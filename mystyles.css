@@ -220,6 +220,17 @@ body {
     background-color: #ddd !important;
 }
 
+#textchat .formula:not(.formattedformula) {
+    /*display: none;*/
+    opacity: .1 !important;
+    font-size: 10px !important;
+    transition: opacity .15s ease-in-out !important;
+}
+
+#textchat .formula:not(.formattedformula):hover {
+    opacity: 1 !important;
+}
+
 .tabmenu {
     height: 50px !important;
     position: absolute !important;
@@ -228,6 +239,7 @@ body {
     margin: 0 !important;
     padding: 0 !important;
     top: 0 !important;
+    width: 100% !important;
 }
 
 .tabmenu li {
@@ -243,15 +255,19 @@ body {
     line-height: 50px !important;
     border: 0 !important;
     width: 100% !important;
+    outline: none !important;
 }
 
 #rightsidebar .ui-tabs-panel {
-    top: 70px !important;
+    top: 50px !important;
+}
+
+#rightsidebar .ui-tabs-panel:not(#textchat) .content {
+    padding: 12px !important;
 }
 
 #rightsidebar .ui-tabs-panel#textchat {
     position: absolute !important;
-    top: 50px !important;
     height: initial !important;
     bottom: 150px !important;
 }
@@ -355,7 +371,13 @@ body {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 30px !important;
 }
 
-/* char sheets w. minimized position */
+/* show the character sheet on the first tab */
+.charsheet {
+    display: block !important;
+}
+
+/* char sheets w. minimized position
 [data-prevpos]:not(.dialog-collapsed) .ui-dialog-titlebar-close {
     display: none !important;
 }
+*/
