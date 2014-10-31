@@ -24,7 +24,8 @@
 		<dict/>
 		<key>Stylesheets</key>
 		<array>
-			<string>mystyles.css</string>
+			<string>theme-tor.css</string>
+			<string>theme-base.css</string>
 		</array>
 		<key>Whitelist</key>
 		<array>
@@ -33,7 +34,7 @@
 		</array>
 	</dict>
 	<key>Description</key>
-	<string>A wooden background, fantasy theme for use with The One Ring on Roll20.net</string>
+	<string>A wooden background, The One Ring theme for Roll20.</string>
 	<key>DeveloperIdentifier</key>
 	<string>26HB4WA4TY</string>
 	<key>ExtensionInfoDictionaryVersion</key>
@@ -42,15 +43,10 @@
 	<dict>
 		<key>Website Access</key>
 		<dict>
-			<key>Allowed Domains</key>
-			<array>
-				<string>roll20.net</string>
-				<string>roll20dev.net</string>
-			</array>
 			<key>Include Secure Pages</key>
 			<true/>
 			<key>Level</key>
-			<string>Some</string>
+			<string>All</string>
 		</dict>
 	</dict>
 	<key>Website</key>

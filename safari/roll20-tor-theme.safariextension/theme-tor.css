@@ -1,0 +1,7 @@
+body {
+    background:
+        url('images/ring.png') center center no-repeat,
+        url('images/poem.png') center center no-repeat,
+        url('images/wood.jpg') !important;
+    box-shadow: inset 0 0 200px rgba(0,0,0,.8) !important;
+}
