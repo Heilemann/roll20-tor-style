@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Michael Heilemann</string>
+	<key>Builder Version</key>
+	<string>10600.1.25</string>
+	<key>CFBundleDisplayName</key>
+	<string>The One Ring Theme for Roll20</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.heilemann.roll20-tor-theme</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict/>
+		<key>Stylesheets</key>
+		<array>
+			<string>mystyles.css</string>
+		</array>
+		<key>Whitelist</key>
+		<array>
+			<string>https://app.roll20.net/editor/</string>
+			<string>https://app.roll20dev.net/editor/</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>A wooden background, fantasy theme for use with The One Ring on Roll20.net</string>
+	<key>DeveloperIdentifier</key>
+	<string>26HB4WA4TY</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>roll20.net</string>
+				<string>roll20dev.net</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://ringen.squarespace.com</string>
+</dict>
+</plist>
